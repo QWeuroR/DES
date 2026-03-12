@@ -1,0 +1,13 @@
+KaField = [100 150 200 300 400 500 1000];
+
+for Ka = KaField
+    
+    reg = mat2str([Ka, 0.001]);
+
+    set_param('SynchronousMachine/Excitation System', "reg", reg)
+    out = sim('SynchronousMachine');
+    ni = (out.sigsOut.get(2).Values.max - 0.98-0.02)/0.02*100;
+    disp([Ka ni])
+    Pe = out.sigsOut.get(1).Values.data - 0.8;
+findpeaks(Pe, 'MinPeakHeight', 0.001)
+end

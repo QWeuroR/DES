@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<GraphicalInterface>
+  <P Name="NumRootInports">0</P>
+  <P Name="NumRootOutports">0</P>
+  <P Name="ParameterArgumentNames"/>
+  <P Name="NumModelReferences">0</P>
+  <P Name="NumTestPointedSignals">0</P>
+  <P Name="NumProvidedFunctions">0</P>
+  <P Name="NumRequiredFunctions">0</P>
+  <P Name="NumResetEvents">0</P>
+  <P Name="HasInitializeEvent">0</P>
+  <P Name="HasTerminateEvent">0</P>
+  <P Name="NumDataStoreReferences">0</P>
+  <P Name="PreCompExecutionDomainType">Unset</P>
+  <P Name="UseModelRefSolver">0</P>
+  <P Name="SolverName">ode23tb</P>
+  <P Name="IsExportFunctionModel">0</P>
+  <P Name="SimulinkSubDomainType">Simulink</P>
+  <P Name="NumParameterArguments">0</P>
+  <P Name="NumExternalFileReferences">13</P>
+  <ExternalFileReference>
+    <P Name="Reference">spsThreePhaseParallelRLCLoadLib/Three-Phase
+Parallel RLC Load</P>
+    <P Name="Path">$bdroot/10 MW</P>
+    <P Name="SID">3</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsThreePhaseSourceLib/Three-Phase Source</P>
+    <P Name="Path">$bdroot/10,000 MVA, 230 kV source</P>
+    <P Name="SID">4</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsThreePhaseFaultLib/Three-Phase Fault</P>
+    <P Name="Path">$bdroot/3-Phase Fault</P>
+    <P Name="SID">5</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsThreePhaseParallelRLCLoadLib/Three-Phase
+Parallel RLC Load</P>
+    <P Name="Path">$bdroot/5 MW</P>
+    <P Name="SID">6</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsExcitationSystemLib/Excitation System</P>
+    <P Name="Path">$bdroot/Excitation System</P>
+    <P Name="SID">10</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsHydraulicTurbineandGovernorLib/Hydraulic Turbine
+and Governor</P>
+    <P Name="Path">$bdroot/HTG</P>
+    <P Name="SID">12</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsLoadFlowBusLib/Load Flow Bus</P>
+    <P Name="Path">$bdroot/Load Flow Bus</P>
+    <P Name="SID">25</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsLoadFlowBusLib/Load Flow Bus</P>
+    <P Name="Path">$bdroot/Load Flow Bus1</P>
+    <P Name="SID">26</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsSynchronousMachinepuStandardLib/Synchronous Machine
+pu Standard</P>
+    <P Name="Path">$bdroot/Synchronous Machine 200 MVA 13.8 kV</P>
+    <P Name="SID">14</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsThreePhaseTransformerTwoWindingsLib/Three-Phase
+Transformer
+(Two Windings)</P>
+    <P Name="Path">$bdroot/Three-phase Transformer 210 MVA 13.8 kV // 230 kV</P>
+    <P Name="SID">16</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsVoltageMeasurementLib/Voltage Measurement</P>
+    <P Name="Path">$bdroot/Va</P>
+    <P Name="SID">17</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spsGroundLib/Ground</P>
+    <P Name="Path">$bdroot/output Ground2</P>
+    <P Name="SID">22</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <ExternalFileReference>
+    <P Name="Reference">spspowerguiLib/powergui</P>
+    <P Name="Path">$bdroot/powergui</P>
+    <P Name="SID">23</P>
+    <P Name="Type">LIBRARY_BLOCK</P>
+  </ExternalFileReference>
+  <P Name="OrderedModelArguments">1</P>
+</GraphicalInterface>
