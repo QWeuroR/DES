@@ -1,15 +1,22 @@
-close all
-clear
+close all; clear; clc;
+warning('off','all')
 
-%% Step Response comparison
-mode = 1;
 
-set_param('desZadsim', 'StopTime', '10')
 
-Kpe_values = [0 0.3];
+%% handlers
+fig1 = figure(1);
+ax1 = tiledlayout(fig1,2,1, "TileSpacing","tight","Padding","tight");
+ax11 = nexttile(ax1,1);
+ax12 = nexttile(ax1,2);
+% ax21 = nexttile(ax1,3);
+% ax22 = nexttile(ax1,4);
+
+%% simulacie
+set_param('SynchronousMachine', 'StopTime', '20')
+
+Kpe_values = 0:0.1:0.5;
 
 results = struct();
-figure
 
 
 for i = 1:length(Kpe_values)
@@ -17,11 +24,11 @@ for i = 1:length(Kpe_values)
     Kpe = Kpe_values(i);
     assignin('base','Kpe',Kpe);
 
-    out = sim("desZadsim.slx");
+    out = sim("SynchronousMachine");
 
-    results(i).Pe  = out.sigsOut.get(1).Values.Data;
-    results(i).Vt  = out.sigsOut.get(2).Values.Data;
-    results(i).Ref = out.sigsOut.get(3).Values.Data;
+    results(i).Pe  = out.Pe.Data;
+    results(i).Vt  = out.Vt.Data;
+    results(i).Ref = out.V_ref.Data;
     results(i).t   = out.tout;
 
     subplot(2,1,1)
@@ -31,8 +38,36 @@ for i = 1:length(Kpe_values)
     plot(results(i).t, results(i).Pe, 'LineWidth', 1.5); hold on;
 end
 
-subplot(2,1,1)
-plot(results(1).t, results(1).Ref, '--', 'LineWidth', 1.5);
+% subplot(2,1,1)
+% plot(results(1).t, results(1).Ref, '--', 'LineWidth', 1.5);
+
+
+
+
+
+
+
+function ploting_helper(ax,title_str,xlabel_str,ylabel_str)
+    legend(ax, 'show', 'Location', 'bestoutside');
+    grid(ax,"on");
+    title(ax,title_str);
+    xlabel(ax,xlabel_str);
+    ylabel(ax,ylabel_str);
+end
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 % 
 % figure
 % 
