@@ -1,5 +1,12 @@
 \section{Model budiča ST4C}
 \label{sec:st4c}
+Budič ST4C patrí medzi štandardizované modely statických budiacich systémov synchrónnych strojov podľa normy IEEE Std 421.5-2016 – IEEE Recommended Practice for Excitation System Models for Power System Stability Studies \cite{7822884}. Norma definuje zjednodušené modely budiacich systémov určené najmä pre výpočty dynamickej a prechodovej stability elektrizačných sústav. V prostredí Simulink je implementovaný blokom SM ST4C, ktorý umožňuje spojitú aj diskrétnu realizáciu modelu a je určený na riadenie a reguláciu budiaceho napätia synchrónneho generátora \cite{mathworks_smst4c_2026}.
+
+Model sa skladá zo štyroch hlavných častí: prúdového kompenzátora, prevodníka merania napätia, regulačných prvkov budenia a modelu zdroja napájania výkonového usmerňovača. Prúdový kompenzátor upravuje merané svorkové napätie na základe svorkového prúdu a parametrov záťažovej kompenzácie $R_C$ a $X_C$. Následne je signál spracovaný meracím prevodníkom napätia, ktorý je reprezentovaný dolnopriepustným filtrom s časovou konštantou $T_R$. Regulačná časť modelu porovnáva referenčné napätie $V_{REF}$ s filtrovaným kompenzovaným napätím $V_C$. Regulačná odchýlka je spracovaná PI regulátorom napätia s parametrami $K_{PR}$ a $K_{IR}$. Model ďalej obsahuje vnútornú regulačnú slučku poľa s parametrami $K_{PM}$ a $K_{IM}$, dynamiku tyristorového mostíka reprezentovanú časovou konštantou $T_A$ a spätnoväzbový člen s parametrami $K_G$ a $T_G$ \cite{mathworks_smst4c_2026,7822884}.
+
+Výstupom modelu je budiace napätie $E_{fd_{pu}}$ v pomerných jednotkách, ktoré vstupuje do modelu synchrónneho generatora. Model ST4C tak poskytuje vhodný kompromis medzi jednoduchosťou a dostatočnou presnosťou na účely výpočtov stability, napäťovej regulácie a analýzy dynamickej odozvy generátora v elektrizačnej sústave \cite{mathworks_smst4c_2026,7822884}.
+
+V rámci tohoto zadania boli použité východzie parametre modelu budiča ST4C, a parametre, ktoré boli upravené sú v tabuľke \ref{tab:parametre_budenia}.
 
 \begin{table}[htbp]
     \centering

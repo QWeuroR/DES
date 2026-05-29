@@ -16,5 +16,53 @@
   {}
 \endgroup
 
+
+\refsection{0}
+  \datalist[entry]{none/global//global/global}
+    \entry{7822884}{article}{}
+      \field{sortinit}{1}
+      \field{sortinithash}{4f6aaa89bab872aa0999fec09ff8e98a}
+      \field{labeltitlesource}{title}
+      \field{journaltitle}{IEEE Std 421.5-2016 (Revision of IEEE Std 421.5-2005) - Redline}
+      \field{title}{IEEE Power and Energy Society, IEEE Recommended Practice for Excitation System Models for Power System Stability Studies - Redline}
+      \field{year}{2016}
+      \field{pages}{1\bibrangedash 453}
+      \range{pages}{453}
+      \keyw{IEEE Standards;Excitation systems;Power system reliability;Stability analysis;Limiters;excitation limiter models;excitation systems models;IEEE 421.5(TM);power system stability;power system stabilizer models}
+    \endentry
+    \entry{mathworks_smst4c_2026}{manual}{}
+      \name{author}{1}{}{%
+        {{hash=f7e77d254db6886d60f16d8cc7d84ee7}{%
+           family={{The MathWorks, Inc.}},
+           familyi={T\bibinitperiod}}}%
+      }
+      \list{location}{1}{%
+        {Natick, Massachusetts, United States}%
+      }
+      \list{organization}{1}{%
+        {The MathWorks, Inc.}%
+      }
+      \strng{namehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{fullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{bibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorbibnamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authornamehash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \strng{authorfullhash}{f7e77d254db6886d60f16d8cc7d84ee7}
+      \field{sortinit}{2}
+      \field{sortinithash}{8b555b3791beccb63322c22f3320aa9a}
+      \field{labelnamesource}{author}
+      \field{labeltitlesource}{title}
+      \field{note}{Accessed: 2026-05-29}
+      \field{title}{SM ST4C: Discrete- or continuous-time synchronous machine ST4C or ST4B static excitation system with an automatic voltage regulator}
+      \field{year}{2026}
+      \verb{urlraw}
+      \verb https://www.mathworks.com/help/sps/ref/smst4c.html
+      \endverb
+      \verb{url}
+      \verb https://www.mathworks.com/help/sps/ref/smst4c.html
+      \endverb
+    \endentry
+  \enddatalist
+\endrefsection
 \endinput
 

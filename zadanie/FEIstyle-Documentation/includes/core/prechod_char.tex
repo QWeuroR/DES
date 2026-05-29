@@ -1,5 +1,6 @@
-\section{Prechodové a frekvenčné charakteristiky}
-V tejto kapitole sú prezentované výsledky simulácií prechodových a frekvenčných charakteristík modelu synchrónneho generátora. Prechodové charakteristiky boli získané simuláciou modelu v Simulinku, kde ako referenčný signál napätia bol použitý skokový signál. Skoky boli realizované ako $2\%$ zmeny referenčného napätia, ktorého počiatočná hodota bola nastavená na $0.98$ pomerných jednotiek ($p.u.$), a teda prvý skok bol realizovaný na $1.00 p.u.$, následne späť na $0.98 p.u.$, potom z $0.98 p.u.$ na $0.96 p.u.$.
+\section{Prechodové a frekvenčné charakteristiky} 
+\label{sec:prechod_char}
+V tejto kapitole sú prezentované výsledky simulácií prechodových a frekvenčných charakteristík modelu synchrónneho generátora. Prechodové charakteristiky boli získané simuláciou modelu v Simulinku, kde bol ako referenčný signál napätia použitý skokový signál. Skoky boli realizované ako $2\%$ zmeny referenčného napätia, ktorého počiatočná hodota bola nastavená na $0.98$ pomerných jednotiek ($p.u.$), a teda prvý skok bol realizovaný na $1.00 p.u.$, následne späť na $0.98 p.u.$, potom z $0.98 p.u.$ na $0.96 p.u.$.
 
 \begin{figure}[h]
     \centering
@@ -8,11 +9,11 @@ V tejto kapitole sú prezentované výsledky simulácií prechodových a frekven
     \label{fig:prechodove_char}
 \end{figure} 
 
-Na obrázku \ref{fig:prechodove_char} sú zobrazené odozvy svorkového napätia a činného výkonu synchrónneho generátorana skokové zmeny referenčného napätia, ktoré je v obrázku znázornené červenou farbou. Ako je možné vidieť, pri skokovej zmene žiadaného napätia dochádza ku krátkodobému prekmitu svorkového napätia a kmitaniu činného výkonu. K rýchlejšiemu tlmeniu kmitania prispieva použitie stabilizátora PSS a ladenie parametrov regulátora turbíny, ktoré sú popísané v kapitole \ref{sec:optimalizacia}.
+Na obrázku \ref{fig:prechodove_char} sú zobrazené odozvy svorkového napätia a činného výkonu synchrónneho generátora na skokové zmeny referenčného napätia, ktoré je v obrázku znázornené červenou farbou. Ako je možné vidieť, pri skokovej zmene žiadaného napätia dochádza ku krátkodobému prekmitu svorkového napätia a kmitaniu činného výkonu. K rýchlejšiemu tlmeniu kmitania prispieva použitie stabilizátora PSS a ladenie parametrov regulátora turbíny, ktoré sú popísané v kapitole \ref{sec:optimalizacia}.
 
 Pre tento konkrétny priebeh simulácie boli parametre PSS a regulátora turbíny nastavené na nasledujúce hodnoty, ktoré sú výsledkom optimalizácie: $T_1 = 0.3006 s$, $T_2 = 0.1131 s$, $K_{pe} = 0.8$, $K_p = 0.001$ a $K_i = 0.07$.
 
-Pre vytvorenie frekvenčných charakteristík činného výkonu bol použitý ako referenčný signál napäria sinusový signál s amplitúdou $0.01 p.u.$ a frekvenciou v rozsahu od $0.1 Hz$ do $5.5 Hz$ s krokom $0.05 Hz$. Pre každný krok frekvencie bola vykonaná simulácia, z ktorej boli získané priebehy hodnoty činného výkonu. V týchto priebehoch boli následne nájdené hodnoty peakov s použitím funkcie \texttt{findpeaks} v MATLABe, z ktorých boli následné vykreslené frekvenčné charakteristiky činného výkonu. 
+Pre vytvorenie frekvenčných charakteristík činného výkonu bol ako referenčný signál napätia použitý sínusový signál s amplitúdou $0.01 p.u.$ a frekvenciou v rozsahu od $0.1 Hz$ do $5.5 Hz$ s krokom $0.05 Hz$. Pre každný krok frekvencie bola vykonaná simulácia, z ktorej boli získané priebehy hodnoty činného výkonu. V týchto priebehoch boli následne nájdené hodnoty peakov s použitím funkcie \texttt{findpeaks} v MATLABe, z ktorých boli následné vykreslené frekvenčné charakteristiky činného výkonu. 
 
 \begin{figure}[h]
     \centering

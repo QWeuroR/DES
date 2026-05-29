@@ -8,4 +8,66 @@ Genetický algoritmus pracoval s populáciou o veľkosti 35 jedincov po 50 gener
 \begin{equation}
 \text{Fitness} = w_1 \cdot \sum_{t=0}^{T} \left|V_{ref}(t) - V_{t}(t)\right| + w_2 \cdot \sum_{t=0}^{T} \left|P_{ref}(t) - P_e(t)\right|
 \end{equation}
-kde $w_1$ a $w_2$ sú váhové koeficienty, $V_{ref}(t)$ je referenčné napätie, $V_{t}(t)$ je svorkové napätie v čase $t$, $P_{ref}(t)$ je požadovaný činný výkon a $P_e(t)$ je činný výkon v čase $t$.
+kde $w_1$ a $w_2$ sú váhové koeficienty, $V_{ref}(t)$ je referenčné napätie, $V_{t}(t)$ je svorkové napätie v čase $t$, $P_{ref}(t)$ je požadovaný činný výkon a $P_e(t)$ je činný výkon v čase $t$. Tento typ účelovej funkcie bol zvolený na základe metody IAE (Integral of Absolute Error), ktorá vypočítava sumu veľkosti plôch medzi krivkou referenčného signálu a krivkou výstupného signálu, čím sa zohľadňuje nielen veľkosť odchýlky, ale aj jej trvanie. Z dôvodu, že Simulink pracuje s diskrétnymi časovými krokmi, bol integrál nahradený sumou. Váhové koeficienty $w_1$ a $w_2$ boli nastavené na hodnotu 1, keďže nebola potreba kompenzovať rôzne veľkosti odchýlok svorkového napätia a činného výkonu. 
+
+Výsledkom optimalizácie bolo nájdenie parametrov PSS a regulátora turbíny, ktoré sú uvedené v tabuľke \ref{tab:optimalne_parametre} v stĺpci Optimálna hodnota. V stĺpci Suboptimálna hodnota sú zobrazené parametre, ktoré boli získané pri suboptimálnej optimalizácii. Tieto parametre boli následne použité pre simuláciu, ktorej výsledky sú zobrazené v kapitole \ref{sec:prechod_char}.
+
+\begin{table}[h]
+    \centering
+    \begin{tabular}{cc|c}
+        \hline
+        Parameter & Optimálna hodnota & Suboptimálna hodnota\\
+        \hline
+        $T_1$ & 0.3006 s & 0.01\\
+        $T_2$ & 0.1131 s & 0.01\\
+        $K_{pe}$ & 0.8 & 0.8\\
+        $K_p$ & 0.001 & 0.0443\\
+        $K_i$ & 0.07 & 0.196\\
+        \hline
+    \end{tabular}
+    \caption{Optimalizované parametre PSS a regulátora turbíny}
+    \label{tab:optimalne_parametre}
+\end{table}
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.2cm, clip]{img/Response_best4_Pe.pdf}
+        \caption{Prechodové charakteristiky s optimalizovanými parametrami}
+        \label{fig:response_optimal}
+    \end{subfigure}
+    % \vfill
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.2cm, clip]{img/Response_best2.pdf}
+        \caption{Prechodové charakteristiky s suboptimálnymi parametrami}
+        \label{fig:response_suboptimal}
+    \end{subfigure}
+    \caption{Porovnanie priebehov s optimalizovanými a suboptimálnymi parametrami}
+    \label{fig:response_comparison}
+\end{figure}
+
+Ako je možné vidieť na obrázku \ref{fig:response_comparison}, optimalizované parametre vedú k rýchlejšiemu tlmeniu kmitania svorkového napätia a činného výkonu v porovnaní so suboptimálnymi parametrami. Pre tieto nastavenia parametrov PSS a regulátora turbíny boli vykonané aj simulácie pre meranie frekvenčných charakteristík činného výkonu, ktoré sú zobrazené a porovnané v obrázku \ref{fig:freq_char_comparison}. 
+
+
+\begin{figure}[h]
+    \centering
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.2cm, clip]{img/Freq_char_4_Pe.pdf}
+        \caption{Frekvenčné charakteristiky s optimalizovanými parametrami}
+        \label{fig:freq_char_optimal}
+    \end{subfigure}
+    % \vfill
+    \begin{subfigure}[b]{0.8\textwidth}
+        \centering
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.2cm, clip]{img/Freq_char_2.pdf}
+        \caption{Frekvenčné charakteristiky s suboptimálnymi parametrami}
+        \label{fig:freq_char_suboptimal}
+    \end{subfigure}
+    \caption{Porovnanie priebehov s optimalizovanými a suboptimálnymi parametrami}
+    \label{fig:freq_char_comparison}
+\end{figure}
+
+Z porovnania frekvenčných charakteristík činného výkonu v obrázku \ref{fig:freq_char_comparison} vyplýva, že optimalizované parametre vedú k nižším amplitúdam kmitania činného výkonu v porovnaní so suboptimálnymi parametrami, čo potvrdzuje účinnosť optimalizácie parametrov PSS a regulátora turbíny v zlepšení dynamického správania systému.

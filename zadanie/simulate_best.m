@@ -2,7 +2,7 @@ clear all; %close all; clc;
 
 % Load the best parameters from the GA script
 % This loads T1, T2, Kpe, Kp, Ki into the workspace
-load('best_parameters_4_Pe.mat');
+load('best_parameters_2.mat');
 
 % Define model name and load it into memory
 ModelName = 'SynchronousMachine';

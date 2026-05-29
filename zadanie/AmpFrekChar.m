@@ -4,7 +4,7 @@ A = ones(size(f));
 iter = 1;
 
 % Load the optimized parameters
-load('best_parameters_1.mat');
+load('best_parameters_2.mat');
 
 ModelName = 'SynchronousMachine';
 load_system(ModelName);

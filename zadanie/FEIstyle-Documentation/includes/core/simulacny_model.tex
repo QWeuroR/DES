@@ -1,5 +1,5 @@
 \section{Simulačný model}
-Simulačný model bol vytvorený v prostredí Simulink s využitím predlohy z knižnice Simulinku \textit{Synchronous Machine}, ktorá bola využívaná počas cvičení. Bloková schéma simulačného modelu je zobrazená na obrázku \ref{fig:simulacny_model}. Model pozostáva z modelu synchrónneho generátora (blok Synchronous Machine), modelu vodnej turbíny (blok HTG),modelu budiča ST4C, ktorým bol nahradený pôvodný model budiča (Excitation
+Simulačný model bol vytvorený v prostredí Simulink s využitím predlohy z knižnice \textit{Synchronous Machine}, ktorá bola využívaná počas cvičení. Bloková schéma simulačného modelu je zobrazená na obrázku \ref{fig:simulacny_model}. Model pozostáva z modelu synchrónneho generátora (blok Synchronous Machine), modelu vodnej turbíny (blok HTG),modelu budiča ST4C, ktorým bol nahradený pôvodný model budiča (Excitation
 System), trojfázového transformátora (blok Three-Phase Transformer) a záťaže. Blok trojfázového skratovača (Three-Phase Fault) bol pre účely tohto zadania vypnutý.
 
 
@@ -60,16 +60,16 @@ Stabilizátor PSS (Power System Stabilizer) bol pridaný do modelu s cieľom zle
 
 \begin{figure}[htbp]
     \centering
-    \begin{subfigure}[b]{0.48\textwidth}
+    \begin{subfigure}[b]{0.8\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{example-image-a} % zmeňte na img/vas_obrazok_bez_pss.png
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.5cm, clip]{img/Response_best4_Pe_no_PSS.pdf} % zmeňte na img/vas_obrazok_bez_pss.png
         \caption{Priebeh bez použitia PSS}
         \label{fig:pss_bez}
     \end{subfigure}
-    \hfill
-    \begin{subfigure}[b]{0.48\textwidth}
+    
+    \begin{subfigure}[b]{0.8\textwidth}
         \centering
-        \includegraphics[width=\textwidth]{example-image-b} % zmeňte na img/vas_obrazok_s_pss.png
+        \includegraphics[width=\textwidth, trim=1.5cm 3.2cm 2.2cm 3.5cm, clip]{img/Response_best4_Pe.pdf} % zmeňte na img/vas_obrazok_s_pss.png
         \caption{Priebeh s použitím PSS}
         \label{fig:pss_s}
     \end{subfigure}

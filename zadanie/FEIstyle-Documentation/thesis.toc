@@ -6,6 +6,9 @@
 \contentsline {subsection}{\numberline {2.1}Model synchrónneho generátora}{7}{subsection.6}%
 \contentsline {subsection}{\numberline {2.2}Model vodnej turbíny}{9}{subsection.8}%
 \contentsline {subsection}{\numberline {2.3}Stabilizátor PSS}{9}{subsection.9}%
-\contentsline {section}{\numberline {3}Prechodové a frekvenčné charakteristiky}{10}{section.12}%
-\contentsline {section}{\numberline {4}Optimalizácia parametrov regulátorov}{12}{section.15}%
-\contentsline {section}{Z\'{a}ver}{13}{section*.17}%
+\contentsline {section}{\numberline {3}Prechodové a frekvenčné charakteristiky}{11}{section.12}%
+\contentsline {section}{\numberline {4}Optimalizácia parametrov regulátorov}{13}{section.15}%
+\contentsline {section}{Z\'{a}ver}{17}{section*.20}%
+\contentsline {section}{Literatúra}{18}{section*.21}%
+\babel@toc {slovak}{}\relax 
+\babel@toc {slovak}{}\relax 

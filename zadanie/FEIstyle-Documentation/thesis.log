@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.6)  29 MAY 2026 17:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.6)  29 MAY 2026 19:27
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1301,7 +1301,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}]
 
 pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/zadanie_Janega_Jakub.pdf, id=47, 614.295pt x 794.97pt>
+<includes/zadanie_Janega_Jakub.pdf, id=51, 614.295pt x 794.97pt>
 File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
 <use includes/zadanie_Janega_Jakub.pdf>
 Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf  used on input line 62.
@@ -1319,7 +1319,7 @@ pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusi
 
 
 pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/zadanie_Janega_Jakub.pdf, id=50, page=1, 614.295pt x 794.97pt>
+<includes/zadanie_Janega_Jakub.pdf, id=54, page=1, 614.295pt x 794.97pt>
 File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
 <use includes/zadanie_Janega_Jakub.pdf, page 1>
 Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
@@ -1346,7 +1346,7 @@ Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input
  <./includes/zadanie_Janega_Jakub.pdf>]
 
 pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/zadanie_Janega_Jakub.pdf, id=83, page=2, 614.295pt x 794.97pt>
+<includes/zadanie_Janega_Jakub.pdf, id=87, page=2, 614.295pt x 794.97pt>
 File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
 <use includes/zadanie_Janega_Jakub.pdf, page 2>
 Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page2 used on input line 62.
@@ -1406,35 +1406,34 @@ File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
 
 
 
-] (./includes/core.tex (./includes/core/model_budica.tex) (./includes/core/simulacny_model.tex [6]
-<img/Simulink_model.png, id=132, 1466.47874pt x 885.3075pt>
+] (./includes/core.tex (./includes/core/model_budica.tex) (./includes/core/simulacny_model.tex [6{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}]
+<img/Simulink_model.png, id=149, 1466.47874pt x 885.3075pt>
 File: img/Simulink_model.png Graphic file (type png)
 <use img/Simulink_model.png>
 Package pdftex.def Info: img/Simulink_model.png  used on input line 8.
 (pdftex.def)             Requested size: 441.01773pt x 266.2292pt.
- [7{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./img/Simulink_model.png>] [8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
-<img/PSS_model.png, id=154, 1874.00125pt x 244.915pt>
+ [7{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./img/Simulink_model.png>] [8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<img/PSS_model.png, id=170, 1874.00125pt x 244.915pt>
 File: img/PSS_model.png Graphic file (type png)
 <use img/PSS_model.png>
 Package pdftex.def Info: img/PSS_model.png  used on input line 55.
 (pdftex.def)             Requested size: 352.81552pt x 46.10829pt.
-<example-image-a.pdf, id=155, 321.2pt x 240.9pt>
-File: example-image-a.pdf Graphic file (type pdf)
-<use example-image-a.pdf>
-Package pdftex.def Info: example-image-a.pdf  used on input line 65.
-(pdftex.def)             Requested size: 211.68661pt x 158.77025pt.
-<example-image-b.pdf, id=156, 321.2pt x 240.9pt>
-File: example-image-b.pdf Graphic file (type pdf)
-<use example-image-b.pdf>
-Package pdftex.def Info: example-image-b.pdf  used on input line 72.
-(pdftex.def)             Requested size: 211.68661pt x 158.77025pt.
-) (./includes/core/prechod_char.tex [9 <./img/PSS_model.png> </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf> </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-b.pdf>]
-<img/Response_best4_Pe.pdf, id=177, 794.97pt x 614.295pt>
+<img/Response_best4_Pe_no_PSS.pdf, id=171, 794.97pt x 614.295pt>
+File: img/Response_best4_Pe_no_PSS.pdf Graphic file (type pdf)
+<use img/Response_best4_Pe_no_PSS.pdf>
+Package pdftex.def Info: img/Response_best4_Pe_no_PSS.pdf  used on input line 65.
+(pdftex.def)             Requested size: 352.81552pt x 216.72397pt.
+<img/Response_best4_Pe.pdf, id=173, 794.97pt x 614.295pt>
 File: img/Response_best4_Pe.pdf Graphic file (type pdf)
 <use img/Response_best4_Pe.pdf>
-Package pdftex.def Info: img/Response_best4_Pe.pdf  used on input line 6.
+Package pdftex.def Info: img/Response_best4_Pe.pdf  used on input line 72.
+(pdftex.def)             Requested size: 352.81552pt x 216.72397pt.
+) (./includes/core/prechod_char.tex [9 <./img/PSS_model.png>] [10 <./img/Response_best4_Pe_no_PSS.pdf> <./img/Response_best4_Pe.pdf>]
+File: img/Response_best4_Pe.pdf Graphic file (type pdf)
+<use img/Response_best4_Pe.pdf>
+Package pdftex.def Info: img/Response_best4_Pe.pdf  used on input line 7.
 (pdftex.def)             Requested size: 441.01773pt x 270.90334pt.
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 15.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 16.
  (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
 File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
 )
@@ -1442,43 +1441,70 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmtt' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
- [10 <./img/Response_best4_Pe.pdf>]
-<img/Freq_char_4_Pe.pdf, id=215, 794.97pt x 614.295pt>
+ [11]
+<img/Freq_char_4_Pe.pdf, id=254, 794.97pt x 614.295pt>
 File: img/Freq_char_4_Pe.pdf Graphic file (type pdf)
 <use img/Freq_char_4_Pe.pdf>
-Package pdftex.def Info: img/Freq_char_4_Pe.pdf  used on input line 19.
+Package pdftex.def Info: img/Freq_char_4_Pe.pdf  used on input line 20.
 (pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
-) (./includes/core/optimalizacia.tex [11 <./img/Freq_char_4_Pe.pdf>])) [12{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] (./includes/conclusion.tex) [13
+) (./includes/core/optimalizacia.tex [12 <./img/Freq_char_4_Pe.pdf>]
+File: img/Response_best4_Pe.pdf Graphic file (type pdf)
+<use img/Response_best4_Pe.pdf>
+Package pdftex.def Info: img/Response_best4_Pe.pdf  used on input line 36.
+(pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
+<img/Response_best2.pdf, id=286, 794.97pt x 614.295pt>
+File: img/Response_best2.pdf Graphic file (type pdf)
+<use img/Response_best2.pdf>
+Package pdftex.def Info: img/Response_best2.pdf  used on input line 43.
+(pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
 
 
-]
+LaTeX Warning: `h' float specifier changed to `ht'.
 
-LaTeX Warning: Empty bibliography on input line 111.
+[13{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}]
+File: img/Freq_char_4_Pe.pdf Graphic file (type pdf)
+<use img/Freq_char_4_Pe.pdf>
+Package pdftex.def Info: img/Freq_char_4_Pe.pdf  used on input line 58.
+(pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
+<img/Freq_char_2.pdf, id=301, 794.97pt x 614.295pt>
+File: img/Freq_char_2.pdf Graphic file (type pdf)
+<use img/Freq_char_2.pdf>
+Package pdftex.def Info: img/Freq_char_2.pdf  used on input line 65.
+(pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
 
-(./thesis.aux)
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+)) [14] [15 <./img/Response_best2.pdf>] [16 <./img/Freq_char_2.pdf>] (./includes/conclusion.tex) [17
+
+
+] [18
+
+
+] (./thesis.aux)
  ***********
 LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: 17D0A88DED09989564724AC74ACC1C69;1405.
+(rerunfilecheck)             Checksum: B0A603E72108C23C8FC163BF9EA471AA;1503.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32741 strings out of 474222
- 564515 string characters out of 5748734
- 1933975 words of memory out of 5000000
- 54275 multiletter control sequences out of 15000+600000
- 632477 words of font info for 139 fonts, out of 8000000 for 9000
+ 33008 strings out of 474222
+ 570060 string characters out of 5748734
+ 1936975 words of memory out of 5000000
+ 54503 multiletter control sequences out of 15000+600000
+ 633789 words of font info for 153 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,17n,131p,2387b,1996s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
-Output written on thesis.pdf (13 pages, 861535 bytes).
+ 123i,17n,131p,2387b,3056s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi6.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (18 pages, 1613566 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 252 compressed objects within 3 object streams
- 31 named destinations out of 1000 (max. 500000)
- 43660 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 453 PDF objects out of 1000 (max. 8388607)
+ 363 compressed objects within 4 object streams
+ 42 named destinations out of 1000 (max. 500000)
+ 43709 words of extra memory for PDF output out of 51595 (max. 10000000)
 
