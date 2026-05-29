@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.6)  29 MAY 2026 10:07
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (TeX Live 2023/Debian) (preloaded format=pdflatex 2026.3.6)  29 MAY 2026 17:38
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -1294,117 +1294,110 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-LaTeX Font Info:    Calculating math sizes for size <20> on input line 61.
-LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 61.
- (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
-File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OML+lmm on input line 61.
- (/usr/share/texmf/tex/latex/lm/omllmm.fd
-File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 61.
- (/usr/share/texmf/tex/latex/lm/omslmsy.fd
-File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 61.
- (/usr/share/texmf/tex/latex/lm/omxlmex.fd
-File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
-)
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <20> on input line 61.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <13.99994> on input line 61.
-LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10> on input line 61.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 61.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
-File: umsa.fd 2013/01/14 v3.01 AMS symbols A
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
-File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
-)
-LaTeX Font Info:    Trying to load font information for U+msb on input line 61.
- (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
-File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
-File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
-) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
-File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
-) [1
+ [1
 
 
 
 {/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}{/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}]
 
-pdfTeX warning: pdflatex (file ./includes/assignment.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/assignment.pdf, id=27, 597.55246pt x 845.07718pt>
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf>
-Package pdftex.def Info: includes/assignment.pdf  used on input line 62.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<includes/zadanie_Janega_Jakub.pdf, id=47, 614.295pt x 794.97pt>
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf  used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
-pdfTeX warning: pdflatex (file ./includes/assignment.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf>
-Package pdftex.def Info: includes/assignment.pdf  used on input line 62.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf  used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
 
 
-pdfTeX warning: pdflatex (file ./includes/assignment.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
 
 
-pdfTeX warning: pdflatex (file ./includes/assignment.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/assignment.pdf, id=30, page=1, 597.55246pt x 845.07718pt>
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 1>
-Package pdftex.def Info: includes/assignment.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 1>
-Package pdftex.def Info: includes/assignment.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 1>
-Package pdftex.def Info: includes/assignment.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 1>
-Package pdftex.def Info: includes/assignment.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 1>
-Package pdftex.def Info: includes/assignment.pdf , page1 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<includes/zadanie_Janega_Jakub.pdf, id=50, page=1, 614.295pt x 794.97pt>
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 1>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 614.29349pt x 794.96806pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 1>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 1>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 1>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 1>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page1 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [2
 
 
- <./includes/assignment.pdf>]
+ <./includes/zadanie_Janega_Jakub.pdf>]
 
-pdfTeX warning: pdflatex (file ./includes/assignment.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
-<includes/assignment.pdf, id=63, page=2, 597.55246pt x 845.07718pt>
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 2>
-Package pdftex.def Info: includes/assignment.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 2>
-Package pdftex.def Info: includes/assignment.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
-File: includes/assignment.pdf Graphic file (type pdf)
-<use includes/assignment.pdf, page 2>
-Package pdftex.def Info: includes/assignment.pdf , page2 used on input line 62.
-(pdftex.def)             Requested size: 597.57834pt x 845.1138pt.
+pdfTeX warning: pdflatex (file ./includes/zadanie_Janega_Jakub.pdf): PDF inclusion: found PDF version <1.7>, but at most version <1.5> allowed
+<includes/zadanie_Janega_Jakub.pdf, id=83, page=2, 614.295pt x 794.97pt>
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 2>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 2>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
+File: includes/zadanie_Janega_Jakub.pdf Graphic file (type pdf)
+<use includes/zadanie_Janega_Jakub.pdf, page 2>
+Package pdftex.def Info: includes/zadanie_Janega_Jakub.pdf , page2 used on input line 62.
+(pdftex.def)             Requested size: 597.78697pt x 773.60669pt.
 [3
 
- <./includes/assignment.pdf>] (./thesis.toc
+ <./includes/zadanie_Janega_Jakub.pdf>] (./thesis.toc
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 3.
+ (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
+File: ot1lmr.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omllmm.fd
+File: omllmm.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omslmsy.fd
+File: omslmsy.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 3.
+ (/usr/share/texmf/tex/latex/lm/omxlmex.fd
+File: omxlmex.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <12> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <8> on input line 3.
 LaTeX Font Info:    External font `lmex10' loaded for size
 (Font)              <6> on input line 3.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
+LaTeX Font Info:    Trying to load font information for U+msb on input line 3.
+ (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+) (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-eur.cfg
+File: mt-eur.cfg 2006/07/31 v1.1 microtype config. file: AMS Euler Roman (RS)
+))
 \tf@toc=\write5
 \openout5 = `thesis.toc'.
 
@@ -1413,7 +1406,49 @@ LaTeX Font Info:    External font `lmex10' loaded for size
 
 
 
-] (./includes/core.tex) [6] (./includes/conclusion.tex) [7
+] (./includes/core.tex (./includes/core/model_budica.tex) (./includes/core/simulacny_model.tex [6]
+<img/Simulink_model.png, id=132, 1466.47874pt x 885.3075pt>
+File: img/Simulink_model.png Graphic file (type png)
+<use img/Simulink_model.png>
+Package pdftex.def Info: img/Simulink_model.png  used on input line 8.
+(pdftex.def)             Requested size: 441.01773pt x 266.2292pt.
+ [7{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc} <./img/Simulink_model.png>] [8{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathsy.enc}]
+<img/PSS_model.png, id=154, 1874.00125pt x 244.915pt>
+File: img/PSS_model.png Graphic file (type png)
+<use img/PSS_model.png>
+Package pdftex.def Info: img/PSS_model.png  used on input line 55.
+(pdftex.def)             Requested size: 352.81552pt x 46.10829pt.
+<example-image-a.pdf, id=155, 321.2pt x 240.9pt>
+File: example-image-a.pdf Graphic file (type pdf)
+<use example-image-a.pdf>
+Package pdftex.def Info: example-image-a.pdf  used on input line 65.
+(pdftex.def)             Requested size: 211.68661pt x 158.77025pt.
+<example-image-b.pdf, id=156, 321.2pt x 240.9pt>
+File: example-image-b.pdf Graphic file (type pdf)
+<use example-image-b.pdf>
+Package pdftex.def Info: example-image-b.pdf  used on input line 72.
+(pdftex.def)             Requested size: 211.68661pt x 158.77025pt.
+) (./includes/core/prechod_char.tex [9 <./img/PSS_model.png> </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-a.pdf> </usr/share/texlive/texmf-dist/tex/latex/mwe/example-image-b.pdf>]
+<img/Response_best4_Pe.pdf, id=177, 794.97pt x 614.295pt>
+File: img/Response_best4_Pe.pdf Graphic file (type pdf)
+<use img/Response_best4_Pe.pdf>
+Package pdftex.def Info: img/Response_best4_Pe.pdf  used on input line 6.
+(pdftex.def)             Requested size: 441.01773pt x 270.90334pt.
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 15.
+ (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2015/05/01 v1.6.1 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+ [10 <./img/Response_best4_Pe.pdf>]
+<img/Freq_char_4_Pe.pdf, id=215, 794.97pt x 614.295pt>
+File: img/Freq_char_4_Pe.pdf Graphic file (type pdf)
+<use img/Freq_char_4_Pe.pdf>
+Package pdftex.def Info: img/Freq_char_4_Pe.pdf  used on input line 19.
+(pdftex.def)             Requested size: 352.81552pt x 221.0905pt.
+) (./includes/core/optimalizacia.tex [11 <./img/Freq_char_4_Pe.pdf>])) [12{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathex.enc}] (./includes/conclusion.tex) [13
 
 
 ]
@@ -1426,24 +1461,24 @@ LaTeX2e <2023-11-01> patch level 1
 L3 programming layer <2024-01-22>
  ***********
 Package rerunfilecheck Info: File `thesis.out' has not changed.
-(rerunfilecheck)             Checksum: ABA4A0C5D0F701AB23106D4746C1DB69;461.
+(rerunfilecheck)             Checksum: 17D0A88DED09989564724AC74ACC1C69;1405.
 Package logreq Info: Writing requests to 'thesis.run.xml'.
 \openout1 = `thesis.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 32544 strings out of 474222
- 560488 string characters out of 5748734
- 1928975 words of memory out of 5000000
- 54161 multiletter control sequences out of 15000+600000
- 632663 words of font info for 132 fonts, out of 8000000 for 9000
+ 32741 strings out of 474222
+ 564515 string characters out of 5748734
+ 1933975 words of memory out of 5000000
+ 54275 multiletter control sequences out of 15000+600000
+ 632477 words of font info for 139 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 123i,17n,131p,2387b,1897s stack positions out of 10000i,1000n,20000p,200000b,200000s
-</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on thesis.pdf (7 pages, 267714 bytes).
+ 123i,17n,131p,2387b,1996s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lmex10.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi12.pfb></usr/share/texmf/fonts/type1/public/lm/lmmi8.pfb></usr/share/texmf/fonts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy8.pfb></usr/share/texmf/fonts/type1/public/lm/lmtt12.pfb>
+Output written on thesis.pdf (13 pages, 861535 bytes).
 PDF statistics:
- 137 PDF objects out of 1000 (max. 8388607)
- 103 compressed objects within 2 object streams
- 12 named destinations out of 1000 (max. 500000)
- 43066 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 252 compressed objects within 3 object streams
+ 31 named destinations out of 1000 (max. 500000)
+ 43660 words of extra memory for PDF output out of 51595 (max. 10000000)
 

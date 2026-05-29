@@ -1,0 +1,11 @@
+\section{Optimalizácia parametrov regulátorov}
+\label{sec:optimalizacia}
+
+Optimalizácia parametrov regulátorov bola realizovaná pomocou genetického algoritmu (GA) v MATLABe. Cieľom optimalizácie bolo nájsť také nastavenie parametrov PSS a regulátora turbíny, ktoré minimalizuje odchýlku svorkového napätia od referenčného napätia a zároveň minimalizuje odchýlku činného výkonu od požadovaného výkonu.
+
+Genetický algoritmus pracoval s populáciou o veľkosti 35 jedincov po 50 generácií. Jedinec bol reprezentovaný vektorom obsahujúcim hodnoty parametrov PSS ($T_1$, $T_2$, $K_{pe}$) a regulátora turbíny ($K_p$, $K_i$). Účelová funkcia (fitness function) bola definovaná ako vážený súčet odchýlok svorkového napätia a činného výkonu, čo de definované nasledovným vzťahom:
+
+\begin{equation}
+\text{Fitness} = w_1 \cdot \sum_{t=0}^{T} \left|V_{ref}(t) - V_{t}(t)\right| + w_2 \cdot \sum_{t=0}^{T} \left|P_{ref}(t) - P_e(t)\right|
+\end{equation}
+kde $w_1$ a $w_2$ sú váhové koeficienty, $V_{ref}(t)$ je referenčné napätie, $V_{t}(t)$ je svorkové napätie v čase $t$, $P_{ref}(t)$ je požadovaný činný výkon a $P_e(t)$ je činný výkon v čase $t$.

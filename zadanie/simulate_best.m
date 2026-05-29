@@ -2,7 +2,7 @@ clear all; %close all; clc;
 
 % Load the best parameters from the GA script
 % This loads T1, T2, Kpe, Kp, Ki into the workspace
-load('best_parameters.mat');
+load('best_parameters_4_Pe.mat');
 
 % Define model name and load it into memory
 ModelName = 'SynchronousMachine';
@@ -12,6 +12,8 @@ load_system(ModelName);
 set_param([ModelName '/pss'], 'T1', num2str(T1));
 set_param([ModelName '/pss'], 'T2', num2str(T2));
 set_param([ModelName '/pss'], 'Kpe', num2str(Kpe));
+sim_time = 32; % Simulation time in seconds
+set_param(ModelName, 'StopTime', num2str(sim_time));
 
 % Get current HTG reg array and update Kp and Ki
 baseRegStr = get_param([ModelName '/HTG'], 'reg');
